@@ -1,0 +1,270 @@
+/* table from index */
+
+/* CSS for smaller device sizes */
+
+@media (max-width: 767px) {
+    .table-responsive {
+        overflow-x: auto;
+    }
+    .table-responsive table {
+        table-layout: auto;
+    }
+}
+
+/* CSS for larger device sizes */
+
+@media (min-width: 768px) {
+    .break-word {
+        word-wrap: break-word;
+    }
+}
+
+.form-container {
+    position: relative;
+    margin-top: 60px;
+}
+
+.el-btn {
+    position: absolute;
+    top: 50px;
+    right: 50px;
+}
+
+/* styling for image upload */
+
+.file-input,
+.file-input-edit-none {
+    display: inline-block;
+    cursor: pointer;
+    overflow: hidden;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    top: 0px;
+    background: url("/images/default-profile.jpg");
+    background-size: cover;
+    /* background-color: #309ed9; */
+    text-align: center;
+}
+
+.file-input,
+.file-input-edit-none {
+    display: inline-block;
+    cursor: pointer;
+    overflow: hidden;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    top: 0px;
+    background: url("/images/default-profile.jpg");
+    background-size: cover;
+    /* background-color: #309ed9; */
+    text-align: center;
+}
+
+/* edit page image if profile exists */
+
+.file-input-edit {
+    cursor: pointer;
+    overflow: hidden;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    top: 0px;
+    text-align: center;
+}
+
+.file-input-edit:hover {
+    cursor: pointer;
+    overflow: hidden;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    top: 0px;
+    text-align: center;
+    opacity: 0.7;
+}
+
+#file-upload-edit,
+#file-upload-edit-none {
+    display: none;
+}
+
+.file-input-detail-none {
+    display: inline-block;
+    overflow: hidden;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    top: 0px;
+    background: url("/images/default-profile.jpg");
+    background-size: cover;
+    margin-bottom: -14px;
+    text-align: center;
+    cursor: default;
+}
+
+.file-input:hover,
+.file-input-edit-none:hover {
+    opacity: 0.7;
+}
+
+/* / styling for the file input label / */
+
+.file-input-label {
+    display: block;
+    margin-top: 50px;
+}
+
+/* / hide the actual file input / */
+
+.file-input input[type="file"] {
+    position: relative;
+    left: -9999px;
+}
+
+#preview-edit {
+    width: 150px;
+    height: 150px;
+    position: relative;
+    border-radius: 50%;
+    top: 14px;
+}
+
+#preview-edit-none {
+    width: 150px;
+    height: 150px;
+    position: relative;
+    border-radius: 50%;
+    top: -3px;
+}
+
+#preview-edit-none img {
+    width: 150px;
+    height: 150px;
+}
+
+#preview-edit-exists img {
+    width: 108px;
+    height: 108px;
+    position: relative;
+    border-radius: 50%;
+    top: -18px;
+    left: 24px;
+    cursor: pointer;
+}
+
+#preview-edit-exists img:hover {
+    width: 108px;
+    height: 108px;
+    position: relative;
+    border-radius: 50%;
+    top: -18px;
+    left: 24px;
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+#preview-edit img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#preview-image {
+    object-fit: cover;
+    width: 108px;
+    height: 108px;
+    position: relative;
+    left: 22px;
+    border-radius: 53px;
+    /* make the image appear as a circle */
+    bottom: 21px;
+}
+
+#preview-image-before {
+    object-fit: cover;
+    width: 108px;
+    height: 108px;
+    position: relative;
+    border-radius: 53px;
+    /* make the image appear as a circle */
+    bottom: 38px;
+}
+
+#preview {
+    width: 150px;
+    height: 150px;
+    position: relative;
+    top: 0px;
+    background-size: cover;
+}
+
+#preview img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#preview-image-detail {
+    object-fit: cover;
+    width: 108px;
+    height: 108px;
+    position: absolute;
+    left: 22px;
+    border-radius: 53px;
+    /* make the image appear as a circle */
+    bottom: 20px;
+}
+
+/* logged in account showing */
+
+.heading-wrapper {
+    position: relative;
+}
+
+#heading {
+    cursor: default;
+}
+
+.top-right-span {
+    position: absolute;
+    top: 14px;
+    right: 50px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: default;
+}
+
+#langBox {
+    margin-left: 74%;
+    position: absolute;
+    font-size: 14px;
+}
+
+/* table */
+
+#table {
+    width: 100%;
+    overflow-x: auto;
+}
+
+@media screen and (min-width: 992px) {
+    #table {
+        table-layout: fixed;
+        word-wrap: break-word;
+    }
+}
+
+/* success/error messages */
+#msg-box {
+    position: fixed;
+    right: 30%;
+    padding-top: 10px;
+    width: 30%;
+    overflow: hidden;
+}
+
+
+
+
